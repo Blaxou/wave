@@ -27,7 +27,8 @@ class WaveDemoHomePage extends StatefulWidget {
 }
 
 class _WaveDemoHomePageState extends State<WaveDemoHomePage> {
-  _buildCard({Config config, Color backgroundColor = Colors.transparent}) {
+  _buildCard(
+      {CustomConfig config, Color backgroundColor = Colors.transparent}) {
     return Container(
       height: 152.0,
       width: double.infinity,
